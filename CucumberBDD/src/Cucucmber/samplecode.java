@@ -15,6 +15,7 @@ public class samplecode {
 	@When ("^I come to [a-zA-Z]{1,}$")
 	public void when_data(){
 		System.out.println("datas are very strange");
+		System.out.println("Another value creation");
 		
 	}
 	@Then("^I feel [a-zA-Z]{1,}$")
